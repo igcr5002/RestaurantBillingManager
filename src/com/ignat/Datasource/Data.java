@@ -20,7 +20,7 @@ public class Data {
     public static final String DB_NAME = "consumptions.db";
 
     //Path to database. This must be changed, accordingly
-    public static final String CONNECTION = "jdbc:sqlite:C:\\Users\\ignat\\Documents\\JavaPrograms\\RestaurantBillingManager\\" + DB_NAME;
+    public static final String CONNECTION = "jdbc:sqlite:D:\\Documents\\JavaPrograms\\RestaurantBillingManager\\" + DB_NAME;
 
 
     public static final String CONSUMPTION_TABLE = "items";
@@ -272,7 +272,7 @@ public class Data {
     //Adds consumption to a particular table
     public void addConsumptionToTable(String item, float price, int tableId) {
         try {
-            System.out.println("AM ajuns aici");
+//            System.out.println("AM ajuns aici");
             queryItemQuantity.setString(1, item);
             queryItemQuantity.setInt(2, tableId);
             ResultSet results = queryItemQuantity.executeQuery();
