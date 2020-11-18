@@ -26,6 +26,7 @@ import java.util.Optional;
 
 public class Controller {
 
+	
     @FXML
     private TableView<Consumption> tableView;
 

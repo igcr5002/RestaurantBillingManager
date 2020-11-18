@@ -21,11 +21,7 @@ public class Main extends Application {
         primaryStage.show();
     }
     
-    // adaugam si aici comment de test
-    // test
-    //test
-    
-    
+   
 
     @Override
     public void init() throws Exception {

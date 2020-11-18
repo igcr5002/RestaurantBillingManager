@@ -8,6 +8,7 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 
+
 //Controller for adding consumption to a table
 public class AddItemController {
 
