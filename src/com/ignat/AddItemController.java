@@ -7,7 +7,12 @@ import javafx.scene.Node;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-
+// fac niste modificari sa vedem daca se trimit... 
+//
+// teste 
+// testetetetete
+//
+//
 //Controller for adding consumption to a table
 public class AddItemController {
 
