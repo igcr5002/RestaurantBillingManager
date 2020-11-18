@@ -20,6 +20,12 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 800, 500));
         primaryStage.show();
     }
+    
+    // adaugam si aici comment de test
+    // test
+    //test
+    
+    
 
     @Override
     public void init() throws Exception {
