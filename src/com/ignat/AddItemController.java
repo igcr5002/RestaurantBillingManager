@@ -22,7 +22,7 @@ public class AddItemController {
     public void cancel(ActionEvent event) {
         closeStage(event);
     }
-//1 test
+
 
     private void closeStage(ActionEvent event) {
         Node source = (Node) event.getSource();
