@@ -21,7 +21,6 @@ public class Data {
 
     //Path to database. This must be changed, accordingly
     public static final String CONNECTION = "jdbc:sqlite:D:\\Documents\\JavaPrograms\\RestaurantBillingManager\\" + DB_NAME;
-//testt
 
     public static final String CONSUMPTION_TABLE = "items";
     public static final String TABLES_TABLE = "tables";
